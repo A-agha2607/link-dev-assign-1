@@ -1,0 +1,34 @@
+@import"variables";
+@import"utilities";
+@import"placeholder";
+@import"function";
+@import"mixin";
+
+.face-round{
+    @include face-dimensions;
+    @extend %flex-center;
+    .face-features{
+        @extend %flex-center;
+        padding-top: calc-space(170px);
+        height: calc-space(400px);
+        gap: calc-space(30px);
+
+        .eyes{
+            @extend %flex-space-between;
+            gap: calc-space(160px);
+            div{
+                @include feature-dimensions(50px);
+                background-color: black;
+                border: none;
+                
+            }
+        }
+        .mouth{
+            @include feature-dimensions(160px);
+            border-bottom:calc-space(10px) $mouth-color solid;
+            
+            
+            
+        }
+    }
+}
