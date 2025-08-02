@@ -1,0 +1,22 @@
+#prods{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.crd{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: aqua;
+    padding: 12px;
+
+}
+.crd img{
+    width: 200px;
+    height: 200px;
+}
+.crd span{
+    padding-bottom: 8px;
+}
