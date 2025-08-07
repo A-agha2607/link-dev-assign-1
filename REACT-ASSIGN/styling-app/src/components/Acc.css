@@ -1,0 +1,9 @@
+
+.line{
+  border: aqua 7px solid;
+    border-radius: 10px;
+}
+.accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
