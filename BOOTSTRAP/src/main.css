@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter_24pt-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+body{
+    font-family: 'Inter',sans-serif;
+}
+header li{
+    padding-right: 32px;
+}
+.header-btn{
+    width: 80px;
+    height: 46px;
+    font-weight: 600;
+}
+.header-btn:hover{
+    background-color: #437EF7;
+    color: white;
+}
+.intro span{
+    color: #437EF7;
+   
+}
+.intro h1{
+    font-size: 52px;
+    font-weight: 700;
+    max-width: 640px;
+   
+}
+.intro div{
+    padding-top: 80px;
+}
+.intro{
+    min-height: 328px;
+}
+.contact{
+    background-color: #2B63D9;
+    min-height: 284px;
+}
+.contact-row{
+    padding-top: 64px;
+}
+.contact-txt{
+    color: #B1CCFB;
+
+    
+}
+.contact-form{
+    max-width:352px ;
+    height: 46px;
+}
+.form-btn{
+     background-color:#437EF7;
+     color: white;
+     height: 46px;
+}
+.contact-col{
+    
+    align-self: center;
+}
+.crds-title{
+    font-size: 1.375rem;
+}
+.crds-1{
+    padding-top: 60px;
+}
+.row-space{
+    padding-bottom: 32px;
+}
+.crds-left h1{
+    padding-top: 24px;
+
+}
+.crds-left span{
+    padding-top: 16px;
+
+}
+.crds-left p{
+    padding-top: 16px;
+
+}
+.crds-2{
+    padding-top: 60px;
+}
+.line-design{
+    border: 5px #D9D9D9 solid;
+    width: 138px;
+}
+.crds-2 button{
+    color: #437EF7;
+}
+.sign-up{
+    background-color: #2B63D9;
+    min-height: 318px;
+}
+.sign-btn{
+    width: 80px;
+    height: 46px;
+    font-weight: 600;
+    color: #437EF7;
+    background-color: white ;
+}
+.sign-up h1{
+    padding-bottom: 32px;
+    max-width: 600px;
+}
+footer{
+    background-color: #151B28;
+    min-height: 492px;
+}
+footer p,li{
+    color: #A5ACBA;
+    text-decoration: none;
+    list-style: none;
+}
+footer input{
+    background-color: #2C3444 !important;
+    color: #A5ACBA !important;
+    border: none !important;
+}
+footer input::placeholder{
+    color: #A5ACBA !important;
+}
+.rights-row{
+    border-top: 1px #2E3545 solid ;
+}
+footer span{
+     color: #A5ACBA ;
+}
+.row-space-64{
+    padding-bottom: 64px;
+}
+footer li{
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+.crds-2-btn{
+    width: 108px;
+}
