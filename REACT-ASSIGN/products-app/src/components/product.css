@@ -1,0 +1,27 @@
+.crds img{
+    width: 200px;
+    height:200px;
+    align-self: center;
+}
+.crds{
+    height: 100%;
+}
+.crds p{
+    font-size: 11px;
+}
+.crds span{
+    justify-self: end;
+}
+.crds h1{
+    font-size: 14px;
+}
+.crds:hover {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15); /* same as Bootstrap .shadow-lg */
+  transition: box-shadow 0.3s ease-in-out; /* smooth animation */
+}
+.line-design{
+    justify-self: end;
+    background-color: #24355F;
+    width: 31px;
+    height: 2px;
+}
